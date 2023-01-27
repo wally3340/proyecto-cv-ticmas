@@ -1,2 +1,63 @@
+body{
+    background-color: lightblue;
+}
+.contenido-izquierdo{
+    background-color: lightseagreen;
+   height: 1000px;
+   width: 800px;
+   margin-left: 60px;
+   text-align: center;
+ 
+}
+.contenido-derecho{
+    background-color:cornflowerblue;
+    height: 1000px;
+    width: 800px;
+    margin-right: 60px;
 
+    text-align: center;
 
+}
+main{
+    grid-template:auto auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 1px;
+    margin-top: 40px;
+  
+}
+h3{
+    font-size: 30px;
+    text-decoration:underline;
+}
+p{
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}
+.lista1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.lista2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.lista3{
+    font-family:'Nunito Sans', sans-serif;
+    text-align: left;
+   
+}
+.nombre{
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.imagen-de-perfil{
+    margin-top: 10px;
+    height: 250px;
+    width: 300px;
+}
