@@ -5,3 +5,9 @@ document.getElementById("micro").addEventListener("click",function(){
 document.getElementById("tel1").addEventListener("click",function(){
     window.open("https://web.whatsapp.com/");
 })
+document.getElementById("google").addEventListener("click",function(){
+    window.open("https://www.google.com.ar/maps/place/Google/@-34.6027012,-58.3691185,17z/data=!3m1!4b1!4m5!3m4!1s0x95a335320d9ea4c5:0x2cb41df4e2abe065!8m2!3d-34.6027012!4d-58.3669298")
+})
+document.getElementById("tel2").addEventListener("click",function(){
+    window.open("https://web.whatsapp.com/");
+})
