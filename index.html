@@ -7,7 +7,7 @@
     <title>Curriculum vitae</title>
     <link rel="icon" type="image/x-icon" href="icono cv.png">
     <!-- link de CSS-->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet"  href="estilos.css">
     <!--link para los iconos de font awesome-->
     <script src="https://kit.fontawesome.com/bc1a01dde7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-<main class="resumen">
+      
+      <main class="resumen">
        <section class="contenido-izquierdo">
             <div class="datos-izquierdos">
                   <img class="imagen-de-perfil" src="foto1.jpg" alt="Foto de perfil">
@@ -45,17 +46,17 @@
                   <h3>Referencias</h3>
                   <ul class="lista3">
                         <li>
-                           <i class="fa-solid fa-building"> Microsoft S.A.</i>
-                           <i class="fa-solid fa-phone-volume"> +456825354</i>
+                              <span id="micro"><i class="fa-solid fa-building"> Microsoft S.A.-</i></span>
+                              <span id="tel1"><i class="fa-solid fa-phone-volume">+456825354</i></span>
                         </li>
                         <li>
-                              <i class="fa-solid fa-building"> Google S.R.L,</i>
-                              <i class="fa-solid fa-phone-volume"> +4571625354</i> 
+                              <span id="google"><i class="fa-solid fa-building"> Google S.R.L,-</i></span>
+                              <span id="tel2"><i class="fa-solid fa-phone-volume">+4571625354</i></span>
                         </li>
                   </ul>
             </div>
             <footer class="redes"> 
-                  <p>Redes Sociales:
+                  <p><br>Redes Sociales:</br>
                   <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/" target="_blank"></i> Oscar Martinez</a>/
                   <i class="fa-brands fa-twitter"></i><a href="https://www.twitter.com" target="_blank"> @oscarmartinez</a>/
                   <i class="fa-brands fa-linkedin"></i><a href="https://ar.linkedin.com/" target="_blank"> Oscar Martinez </a>
@@ -63,41 +64,36 @@
 
        </section>
 
-       <section class="contenido-derecho">
+       <aside  class="contenido-derecho">
             <div class="acerca-de-mi">
             <h3>Acerca de mí</h3>
             <p>Soy una persona curiosa y llena de creatividad, a la cual le gusta indagar profundamente en los temas.<br>
             Me considero una persona autodidacta, sagaz y a la cual le motivan nuevos desafíos para poner en práctica <br>
             mis conocimientos en trabajos de equipo.</p>
             </div>
-            <div class="experiencia-laboral>"></div>
+            <div class="experiencia-laboral">
             <h3>Experiencia Laboral</h3>
-               <div>
-                   <p class="compañia1">Two sisters International</p>
-                   <p class="periodo1">2015-2019</p>
-                   <p class="tareas1">Asistente</p>
+               <div class="empresa1">
+                   <p class="compañia1">Two sisters International (2015-2019)-Puesto: Asistente</p>
                </div>
-               <div>
-                   <p class="compañia2">Microsoft S.A.</p>
-                   <p class="periodo2">2019-2020</p>
-                   <p class="tareas2">Desarrollador Web</p>
+               <div class="empresa2">
+                   <p class="compañia2">Microsoft S.A (2019-2020)-Puesto: Desarrollador Web</p>
                 </div>
-                <div>
-                   <p class="compañia3">Google S.R.L</p>
-                   <p class="periodo3">2019-2020</p>
-                   <p class="tareas3">Desarrollador Web y soporte IT</p>
+                <div class="empresa3">
+                   <p class="compañia3">Google S.R.L (2019-2020)-Puesto: Desarrollador Web y soporte IT</p>
                 </div>
+            </div>
             <div class="educación">
                   <h3>Estudios y formación académica</h3>
-            </div>    
-                  <p class="academia1">Academias Udemi</p>
-                  <p class="titulo">Desarrollador Web</p></div>
-                       
-            <div>
-                  <p class="academia2">Universidad de Buenos Aires</p>
-                  <p class="titulo2">Analista programador</p></div>
-
-       </section>
-</main>   
+                
+                  <p class="academia1">Academias Udemi: Título: Desarrollador Web</p>  
+            
+                  <p class="academia2">Universidad de Buenos Aires: Título: Analista programador</p>
+            </div>
+            </aside>
+       
+     </main>
+     <!---link de JavaScript-->
+     <script src="script.js"></script>   
 </body>
 </html>

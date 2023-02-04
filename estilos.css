@@ -1,30 +1,55 @@
+
+
 body{
-    background-color: lightblue;
+ background-image:url("verde2.jpg");
 }
+
 .contenido-izquierdo{
     background-color: lightseagreen;
-   height: 1000px;
-   width: 800px;
+   height: 100%;
+   width: 40%;
    margin-left: 60px;
    text-align: center;
+   box-sizing:border-box;
+   float: left
  
 }
-.contenido-derecho{
-    background-color:cornflowerblue;
-    height: 1000px;
-    width: 800px;
-    margin-right: 60px;
-
-    text-align: center;
+.informacion-de-contacto{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    height: 200px;
+    margin:20px;
+}
+.conocimientos{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    height: 200px;
+    margin:20px;
+}
+.referencias{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    height: 200px;
+    margin:20px;
 
 }
-main{
-    grid-template:auto auto;
-    display:grid;
-    grid-template-columns: auto auto;
-    column-gap: 1px;
-    margin-top: 40px;
-  
+.redes{
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    margin:20px;
+    text-decoration: underline;
+
+}
+
+aside{
+    background-color:cornflowerblue;
+    height: 100%;
+    width: 50%;
+    margin-right: 60px;
+    text-align: center;
+    box-sizing:border-box;
+    float: right
 }
 h3{
     font-size: 30px;
@@ -61,3 +86,38 @@ ul{
     height: 250px;
     width: 300px;
 }
+.acerca-de-mi{
+    background-color: lightseagreen;
+    margin:20px;
+    border-radius: 10px;
+    height:300px;
+}
+.experiencia-laboral{
+    background-color:lightseagreen;
+    margin:20px;
+    border-radius: 10px;
+    height: 300px;
+}
+.educación{
+    background-color: lightseagreen;
+    margin:20px;
+    height: 270px;
+    
+    border-radius: 10px;
+}
+@media screen and (max-width: 1024px){
+    .resumen{width:100%}
+}
+@media screen and (max-width:480px){
+    .resumen{width:100%}
+}
+@media screen and (max-width:320px){
+    .resumen{width:100%}
+}
+
+
+
+
+    
+
+
