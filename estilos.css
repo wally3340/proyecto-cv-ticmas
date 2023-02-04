@@ -61,6 +61,19 @@ p{
 ul{
     font-size: 20px;
 }
+#micro{
+    cursor:pointer;
+}
+#google{
+    cursor: pointer;
+}
+#tel1{
+    cursor: pointer;
+}
+#tel2{
+    cursor: pointer;
+}
+
 .lista1{
     font-size: 20px;
     font-weight: bold;
@@ -74,6 +87,7 @@ ul{
 .lista3{
     font-family:'Nunito Sans', sans-serif;
     text-align: left;
+    text-decoration: underline;
    
 }
 .nombre{
